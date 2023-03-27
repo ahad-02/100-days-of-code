@@ -19,7 +19,7 @@ How much tip would you like to give? 10, 12, or 15? 12
 How many people to split the bill? 
 ```
 
-# Example Output
+# Example Output Formatting
 ```
 Each person should pay: $
 ```
