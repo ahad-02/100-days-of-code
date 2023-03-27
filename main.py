@@ -13,5 +13,6 @@ total_tip = int(input("How much would you like to give? 10, 12, or 15? "))
 total_tip_perc = total_tip / 100
 no_of_people = int(input("How many people to split the bill ? "))
 total_bill_tip = total_bill + (total_bill * total_tip_perc)
-each_total = round(total_bill_tip / no_of_people, 2)
-print(f"Each person should pay: ${each_total} ")
+each_total = (total_bill_tip / no_of_people)
+final_amount = "{:.2f}.format(each_total)"
+print(f"Each person should pay: ${final_amount}")
